@@ -53,7 +53,7 @@
                         <Label Content="Title : " FontSize="12" Grid.Column="2"/>
                     </Grid>
 
-                    <Border BorderBrush="Black" BorderThickness="1">
+                    <Border BorderBrush="Black" BorderThickness="0,1,0,1">
                         <TextBox Height="305"  TextWrapping="Wrap" AcceptsReturn="True" AcceptsTab="True"  >
 
                         </TextBox>

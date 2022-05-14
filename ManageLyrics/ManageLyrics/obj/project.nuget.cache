@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AQvaD+6xUNX8kB8BjeVAzwI5esDaZKOXzffU1uQMrdCr+/NeTsyJs2UG7/LMsupShr5RfqfMeyQ94iBLbAfavw==",
+  "dgSpecHash": "Fxryv8Vr4De8v/UprLlneyXrap1IXRt5ZFw/3AJfJzKgt/gVLqLVQ6kF5ZoYRNxa7n4acrt40O4Xcm/BZVTBJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rlawo\\source\\repos\\ManageLyrics\\ManageLyrics\\ManageLyrics.csproj",
+  "projectFilePath": "C:\\Users\\rlawo\\Documents\\GitHub\\IDontKnow-This-\\ManageLyrics\\ManageLyrics\\ManageLyrics.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rlawo\\.nuget\\packages\\fody\\6.5.1\\fody.6.5.1.nupkg.sha512",
     "C:\\Users\\rlawo\\.nuget\\packages\\propertychanged.fody\\3.4.0\\propertychanged.fody.3.4.0.nupkg.sha512"
