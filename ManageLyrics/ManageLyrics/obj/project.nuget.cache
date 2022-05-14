@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AQvaD+6xUNX8kB8BjeVAzwI5esDaZKOXzffU1uQMrdCr+/NeTsyJs2UG7/LMsupShr5RfqfMeyQ94iBLbAfavw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rlawo\\source\\repos\\ManageLyrics\\ManageLyrics\\ManageLyrics.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rlawo\\.nuget\\packages\\fody\\6.5.1\\fody.6.5.1.nupkg.sha512",
+    "C:\\Users\\rlawo\\.nuget\\packages\\propertychanged.fody\\3.4.0\\propertychanged.fody.3.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
