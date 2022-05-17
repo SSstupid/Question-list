@@ -1,11 +1,12 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
-                    xmlns:system="clr-namespace:System;assembly=netstandard"
-                    xmlns:local="clr-namespace:ManageLyrics">
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:ManageLyrics"
+    xmlns:system="clr-namespace:System;assembly=netstandard">
 
     <FontFamily x:Key="FontAwesome">pack://application;,,,/Fonts/#FontAwesome</FontFamily>
 
-    <system:Double x:Key="FontSizeRegular" >30</system:Double>
+    <system:Double x:Key="FontSizeRegular">30</system:Double>
 
     <system:String x:Key="FontAwesomeSearchIcon">&#xf002;</system:String>
     <system:String x:Key="FontAwesomeDeleteIcon">&#xf1f8;</system:String>

@@ -7,11 +7,13 @@ namespace ManageLyrics
 {
     public class ListViewViewModel : BaseViewModel
     {
-          List<ListModel> _songList = new List<ListModel>();
+        public static List<ListModel> _songList { get; set; }
 
-        public List<ListModel> GetInfo
+        public ListViewViewModel()
         {
-            get => _songList;
+            List<ListModel> fileDatas = new();
+            fileDatas.Add(new ListModel() { files = "abccc" });
+            _songList = fileDatas;
         }
 
         public void ListDragEnter(object sender, DragEventArgs e)
@@ -21,14 +23,17 @@ namespace ManageLyrics
 
         public void ListDrag(object sender, DragEventArgs e)
         {
+           // List<ListModel> fileDatas = new();
             var AddItem = sender as ListView;
             string[] abc = (string[])e.Data.GetData(DataFormats.FileDrop);
-            foreach (string fileName in abc)
+            /*foreach (string fileName in abc)
             {
                 _songList.Add(new ListModel() { files = fileName });
-            }
-            AddItem.ItemsSource = _songList;
-            AddItem.Items.Refresh();
+            }*/
+            //_songList = fileDatas;
+
+            //AddItem.ItemsSource = _songList;
+            //AddItem.Items.Refresh();
         }
     }
 }

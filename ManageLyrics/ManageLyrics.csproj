@@ -10,7 +10,9 @@
   <ItemGroup>
     <None Remove="Fonts\fontawesome-webfont.svg" />
     <None Remove="Fonts\fontawesome-webfont.ttf" />
+    <None Remove="Img\logo-small.png" />
     <None Remove="Img\TestImg.JPG" />
+    <None Remove="Img\vs.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,7 +24,11 @@
   <ItemGroup>
     <Resource Include="Fonts\fontawesome-webfont.svg" />
     <Resource Include="Fonts\fontawesome-webfont.ttf" />
-    <Resource Include="Img\TestImg.jpg" />
+    <Resource Include="Img\logo-small.png" />
+    <Resource Include="Img\TestImg.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Img\vs.png" />
   </ItemGroup>
 
   <ItemGroup>

@@ -12,7 +12,7 @@ namespace ManageLyrics
         {
             InitializeComponent();
 
-            DataContext = new ListViewViewModel();
+            DataContext = new MainViewModel();
         }
     }
 }
