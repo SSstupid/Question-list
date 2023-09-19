@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GenericTSampleApp
 {
-    public class TestViewModel<TSampleViewModel> : BaseViewModel
+    public class ExampleNewViewModel<TSampleViewModel> : BaseViewModel
         where TSampleViewModel : SampleViewModel, new ()
     {
     }
