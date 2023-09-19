@@ -3,9 +3,9 @@
 namespace GenericTSampleApp
 {
     public class MainViewModel<TSampleViewModel> : BaseViewModel
-        where TSampleViewModel : SampleViewModel
+        where TSampleViewModel : SampleViewModel, new ()
     {
-
+        /*
         public TSampleViewModel SampleMethod(string id, string name)
         {
             var sample = ?????? TSampleViewModel { Id = id, Name = name }; // <= 막히는 부분 입니다.
@@ -14,6 +14,7 @@ namespace GenericTSampleApp
             // var sample = Mvx.IoCProvider.IoCConstruct<TSampleViewModel>(new[] { id, name });
             // 원하는 기대 값은 위에 코드와 같이 <T>를 new 생성하는 방법 입니다.
         }
+        */
     }
 
 
