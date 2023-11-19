@@ -15,8 +15,11 @@ namespace DefineViewWithParameterToXaml
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
+            builder.Services.AddScoped<ViewWithParameter>();
+            builder.Services.AddScoped<ViewModel>();
+
 #if DEBUG
-		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
             return builder.Build();
