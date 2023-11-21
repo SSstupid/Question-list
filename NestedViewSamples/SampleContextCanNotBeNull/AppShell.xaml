@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="SampleContextCanNotBeNull.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:SampleContextCanNotBeNull"
+    Shell.FlyoutBehavior="Disabled"
+    Title="SampleContextCanNotBeNull">
+
+    <FlyoutItem >
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+    
+        <ShellContent
+            Title="ContextNullExceptionPage"
+            ContentTemplate="{DataTemplate local:ContextNullExceptionPage}"
+            Route="ContextNullExceptionPage" />
+
+        <ShellContent
+            Title="NullReferenceExceptionPage"
+            ContentTemplate="{DataTemplate local:NullReferenceExceptionPage}"
+            Route="NullReferenceExceptionPage" />
+    </FlyoutItem>
+
+</Shell>
