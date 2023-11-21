@@ -5,6 +5,8 @@ public class SampleView : Microsoft.Maui.Controls.Compatibility.Layout<View>
     // Events
     // Properties
     private View _content;
+    // If don't do `Children.Insert` and `Children.Remove` , there's no problem.
+    // if => View Content { get; set;}
     public View Content
     {
         get => _content;
